@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Food Menu Application</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header class="header">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQuQEe1PbP0qtKC651B38yAPSdVKwZrw-VllmsvKODtaQ&s=10"
+            alt="Food Menu" width="100px">
+               <form class="search">
+            <input type="text" class="search__field" placeholder="Search for recipes... (e.g. korma)">
+            <button class="btn search__btn">Search</button>
+        </form>
+        <div>
+            <button class="btn">Add Recipe</button>
+            <button class="btn">Bookmarks</button>
+        </div>
+    </header>
+
+    <div class="container">
+        <nav class="results-panel">
+            <ul class="results">
+            </ul>
+        </nav>
+
+        <main class="recipe-panel">
+            <div class="recipe-display">
+                <p>Search for a recipe to get started!</p>
+            </div>
+        </main>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
